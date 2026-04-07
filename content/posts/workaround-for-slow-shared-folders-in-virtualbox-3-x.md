@@ -1,0 +1,9 @@
++++
+title = "workaround for slow shared folders in Virtualbox 3.x"
+date = 2010-01-29
++++
+
+Happy 2010 fair readers !  I hope that all is well with you and yours.  Let's get right to business : [Virtualbox](http://www.virtualbox.org/) has a feature that allows you to access the host OS's file system from the guest OS ([shared folders](http://www.virtualbox.org/manual/UserManual.html#sharedfolders)), which is super useful, but not exactly perfectly implemented.  In particular, there are known, [documented performance issues](http://www.google.com/search?q=virtualbox+shared+folder+slow) in certain scenarios, such as when accessing a Linux host via a Windows guest (which, as you might imagine, is a pretty regular sort of activity).
+One common (?) workaround is to install and configure Samba on the Linux host, then access it from the Windows guest like one would access any network server.  The problem here is that it requires that Samba be installed and configured, which *can* be a pain in the, well, you know.  Furthermore, the connection will be treated like any other, and the traffic will travel up and down the network stack, which is fundamentally unnecessary since the data is, physically speaking, stored locally.
+Instead, here's another workaround, one that keeps things simple, *and* solves the performance problem : just map the shared folder to a local drive in the host OS.  It's that easy.  For those of us who aren't too familiar with the Windows explorer interface (me included, heh), there are tonnes of [step by step instructions](http://www.google.com/search?q=windows+map+shared+folder+to+local+drive) available.  For whatever reason (i suspect Netbios insanity), accessing the network share via a mapped drive manages to *avoid* whatever condition creates the lag problems, resulting in a rapid, efficient access to the underlying filesystem.
+Hope that helps - enjoy !
