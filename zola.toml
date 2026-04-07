@@ -1,0 +1,27 @@
+base_url = "https://blog.dark.ca"
+title = "dan's tech blog"
+description = "direct from the mysterious land of the sysadmin"
+theme = "terminus"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+author = "Dan Maher"
+
+[markdown.highlighting]
+theme = "nord"
+style = "class"
+
+[[taxonomies]]
+name = "tags"
+
+[[taxonomies]]
+name = "categories"
+
+[extra]
+color_scheme = "terminus"
+copyright = "© $YEAR $AUTHOR"
+show_default_author = true
+
+main_menu = [
+    { name = "posts", url = "posts", trailing_slash = true },
+]
