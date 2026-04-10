@@ -102,7 +102,7 @@ The `!` right at the start of the sequence tells git to treat the whole thing as
 
 
 
-First we make sure that we're on the `main` branch in our local repo by running `git checking main`. It's possible that your repo uses a different name for trunk ("master" was popular for a long time), but "main" is common.
+First we make sure that we're on the `main` branch in our local repo by running `git checkout main`. It's possible that your repo uses a different name for trunk ("master" was popular for a long time), but "main" is common.
 
 
 
