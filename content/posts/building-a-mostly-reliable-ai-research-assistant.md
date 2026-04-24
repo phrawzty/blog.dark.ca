@@ -1,5 +1,5 @@
 +++
-title = "Building a (mostly) reliable research assistant
+title = "Building a (mostly) reliable research assistant"
 date = 2026-04-24
 +++
 
