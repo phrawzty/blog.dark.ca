@@ -3,8 +3,6 @@ title = "16 Years of DevOpsDays: A Look at the Numbers"
 date = 2026-07-31
 +++
 
-# 16 Years of DevOpsDays: A Look at the Numbers
-
 Since the first DevOpsDays in Ghent in 2009, the community has organised well over 700 events across every populated continent. Here's what the shape of that history looks like.
 
 ## The long arc, 2009–2026
@@ -15,7 +13,7 @@ Events grew steadily from a handful in the early years to a peak of **81 in 2020
 
 The most recent years show a mild decline: 60 in 2025 and 53 confirmed for 2026 so far. To me, it looks less like a slump and more like a return to a stable, sustainable equilibrium.
 
-## Where DevOpsDays happens
+## Where DevOpsDays happen
 
 The all-time regional picture:
 
@@ -35,7 +33,7 @@ The all-time regional picture:
 
 USA and Europe together account for roughly 61% of all events ever held. That's the headline, but it undersells one thing: **Brazil**. 106 events makes it the single most active country after the USA (by a comfortable margin).
 
-## The post-COVID picture (2022 onwards)
+## The post-COVID picture
 
 Restrict the lens to 2022 and later, and the picture shifts:
 
@@ -60,6 +58,6 @@ A few things stand out:
 - **Europe is remarkably steady.** Bouncing between 14 and 18 events a year through the whole post-COVID period.
 - **Central Asia has quietly arrived.** No events at all before 2018; now a consistent presence in double digits.
 
-## What it adds up to
+## OK, so now what?
 
 DevOpsDays is smaller than it was at its 2019–2020 peak, but I think we're healthier for it. More distributed, less dependent on any single region, and drawing organisers in places (Baku, Almaty, Tashkent, Kazan) that would have been unthinkable a decade ago. The centre of gravity is still transatlantic, but it's drifting south and east, one event at a time.
